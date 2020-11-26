@@ -3,18 +3,21 @@
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   background-color: white;
   max-width: 100%;
 }
-p{
+
+p {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
 }
-.nav_bar{
+
+.nav_bar {
   display: flex;
   z-index: 100;
   position: sticky;
@@ -31,13 +34,16 @@ p{
   border-top: solid 1px black;
   background-color: white;
 }
-.register{
+
+.register {
   justify-self:flex-end;
 }
-.logo{
+
+.logo {
   max-height: 50px;
 }
-.btns{
+
+.btns {
   margin-left: 5px;
   margin-right: 5px;
   background-color: rgb(87, 40, 40);
@@ -48,46 +54,57 @@ p{
   font-size: 15px;
   padding: 3px;
 }
-main{
+
+main {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-.art-img{
+
+.art-img {
   max-width: 50%;
   position: static;
 }
-.h1{
+
+.h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 20px;
   font-size:50px;
 }
-.icon{
+
+.icon {
   height: 20px;
   width: 20px;
   padding: 10px;
+
 }
-.lable{
+
+.lable {
   position: relative;
   max-width: 50%;
   font-weight: lighter;
   font-size: small;
+
 }
-span{
+
+span {
   color: cornflowerblue;
   position: relative;
 }
-.article-one{
+
+.article-one {
   display: flex;
   padding-left: 25%;
   justify-content: center;
   max-width: 50%;
   flex-direction: column;
 }
-.icon-brands{
+
+.icon-brands {
   align-self: flex-end;
 }
-.brands{
+
+.brands {
   height: 12px;
   width: 12px;
   padding: 7px;
@@ -95,7 +112,8 @@ span{
   justify-self: flex-end;
   border-radius: 15px;
 }
-.auther{
+
+.auther {
   position: relative;
   display: flex;
   padding: 12px;
@@ -103,7 +121,8 @@ span{
   align-content: center;
   font-weight: bolder;
 }
-.author-link{
+
+.author-link {
   text-decoration: none;
   position: relative;
   top: 20px;
@@ -111,10 +130,12 @@ span{
   color: black;
   font-size: 22px;
 }
-.date{
+
+.date {
   font-size: 15px;
 }
-.space{
+
+.space {
   text-decoration: none;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -122,7 +143,8 @@ span{
   position: relative;
   bottom: 13px;
 }
-.ads{
+
+.ads {
   max-width: 100%;
   max-height: 200px;
   background-color: lightgray;
@@ -130,23 +152,28 @@ span{
   color: rgb(255, 255, 255);
   font-size: 1 px;
 }
-.ad{
+
+.ad {
   font-size: 12px;
   color: rgb(240, 232, 232);
 }
-.art-link{
+
+.art-link {
   color: rgb(59, 59, 150);
 }
-#video1{
+
+#video1 {
   position: relative;
   left: 25%;
 }
-#editors{
+
+#editors {
   padding: 5px;
   border-bottom: double 2px black;
   align-self: center;
 }
-.aside{
+
+.aside {
   position: absolute;
   top: 3000px;
   right: 75px;
@@ -154,45 +181,53 @@ span{
   height: 400px;
   align-content: center;
 }
-.aside-img{
+
+.aside-img {
   width: 90px;
   position: relative;
 }
-.aside-ad{
+
+.aside-ad {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-auto-flow: row;
   padding: 3px;
 }
-#aside-panels{
+
+#aside-panels {
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: 1fr 1fr;
   padding: 5px;
 }
-.aside-p{
+
+.aside-p {
   font-size: 12px;
   justify-self: center;
   text-decoration: none;
   color: black;
   padding: 4px;
 }
-#multi-img{
+
+#multi-img {
   max-width: 80%;
   position: relative;
   left: 10%;
 }
-#p-multi{
+
+#p-multi {
   font-weight: 70%;
   font-size: 17px;
   color: rgb(42, 102, 151);
 }
-#img-multi{
+
+#img-multi {
   max-width: 950px;
   position: absolute;
   align-self: center;
 }
-#multi-p{
+
+#multi-p {
   display: grid;
   width: 85%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -204,55 +239,66 @@ span{
   left: 20px;
   top: 150px;
 }
-.span-multi{
+
+.span-multi {
   font-size: 15px;
   color: black;
   font-weight: bold;
   padding: 3px;
 }
-.p-multi{
+
+.p-multi {
   font-size: 15px;
 }
-.footer-logo{
+
+.footer-logo {
   position: relative;
   align-content: center;
   left: 10%;
   z-index: 100;
   width: 300px;
 }
-.footer-container{
+
+.footer-container {
   display: flex;
   justify-content: center;
   position: relative;
 }
-.footer-container div{
+
+.footer-container div {
   margin-left: 50px;
   margin-right: 50px;
 }
-.footer-list a{
+
+.footer-list a {
   text-decoration:none;
   color: black;
   margin: 15PX;
 }
-li{
+
+li {
   list-style: none;
 }
-h3{
+
+h3 {
   padding: 10px;  
 }
-#footer-logo{
+
+#footer-logo {
   border-top: black double 3px;
   margin-top: 100px;
   margin-left: 60px;
   margin-right: 60px;
   position: relative;
 }
-.footer{
+
+.footer {
   padding:20px 30px 20px 65px ;
   margin-top: 10px;
   background-color: cornsilk;
 }
-.footer a{
+
+.footer a {
   text-decoration: none;
   margin: 10px;
   color: black;
