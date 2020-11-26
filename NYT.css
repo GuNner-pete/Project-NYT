@@ -162,7 +162,7 @@ span {
 
 #video1 {
   position: relative;
-  left: 25.7%;
+  left: 25.5%;
 }
 
 #editors {
@@ -207,13 +207,15 @@ span {
   padding: 4px;
 }
 
-#multi-img {
-  max-width: 80%;
-  position: relative;
-  left: 10%;
+.multi-img {
+  width: 250px;
 }
 
 #p-multi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+  max-width: 100%;
   font-size: 17px;
   color: rgb(42, 102, 151);
 }
@@ -233,7 +235,7 @@ span {
   height: 500px;
   row-gap: 70px;
   position: relative;
-  left: 20px;
+  left: 7.5%;
   top: 150px;
 }
 
@@ -251,7 +253,7 @@ span {
 .footer-logo {
   position: relative;
   align-content: center;
-  left: 10%;
+  left: 5%;
   z-index: 100;
   width: 300px;
 }
@@ -307,9 +309,10 @@ h3 {
   grid-template-columns: 3fr 1fr;
   position: relative;
   max-width: 94%;
-  top: 100px;
-  left: 25px;
+  top: 200px;
+  left: 40px;
   column-gap: 30px;
+  margin-bottom: 200px;
 }
 
 #sugg {
@@ -372,6 +375,7 @@ h3 {
 .date {
   position: absolute;
   bottom: 0;
+  font-size: 15px;
 }
 
 .desc-more {
