@@ -129,7 +129,7 @@ span {
   font-size: 22px;
 }
 
-.date {
+.year-published {
   font-size: 15px;
 }
 
@@ -325,12 +325,10 @@ h3 {
   display: grid;
   padding-top: 20px;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .more-pic {
   width: 320px;
-  
 }
 
 .more {
@@ -367,7 +365,7 @@ h3 {
 .source {
   position: absolute;
   font-size: 15px;
-  right: 0px;
+  right: 0;
   top: 218px;
 }
 
@@ -398,7 +396,6 @@ h3 {
   padding: 20px 30px 7px 0;
   margin-bottom: 15px;
   border-top: 1px solid black;
-  
 }
 
 h4 {
