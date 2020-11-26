@@ -301,15 +301,17 @@ h3 {
   color: black;
   font-size: 12px;
 }
+
 #grided {
   display: grid;
   grid-template-columns: 3fr 1fr;
   position: relative;
-  max-width: 90%;
+  max-width: 94%;
   top: 100px;
   left: 25px;
   column-gap: 30px;
 }
+
 #sugg {
   display: grid;
   padding: 8px;
@@ -318,19 +320,24 @@ h3 {
   border-bottom: black solid 2px;
   position: relative;
 }
+
 #more {
   display: grid;
-  padding-top: 10px;
+  padding-top: 20px;
   grid-template-columns: 1fr 1fr 1fr;
+
 }
+
 .more-pic {
   width: 320px;
   
 }
+
 .more {
   position: relative;
   padding: 25px 2px 25px 2px;
 }
+
 #more-link {
   text-decoration: underline;
   color: black;
@@ -338,48 +345,54 @@ h3 {
   margin: 5px;
   padding-bottom: 50px;
 }
+
 .sugg {
   border: black solid 1px;
   margin: 5px;
   position: relative;
 }
+
 .sugg-link {
   position: absolute;
   color: black;
   bottom: 5px;
   right: 10px;
 }
+
 .timing {
   font-size: 15px;
   color: rgb(117, 108, 108);
 }
+
 .source {
   position: absolute;
   font-size: 15px;
   right: 0px;
   top: 218px;
 }
+
 .date {
   position: absolute;
   bottom: 0;
 }
+
 .desc-more {
   font-size: 20px;
   padding: 3px;
   color: black;
   text-decoration: none;
 }
+
 #most {
   display: flex;
   flex-flow: column;
-}
-#most {
   border-top: 1px solid black;
   max-width: 300px;
-  margin-left: -20px;
+  margin-left: 20px;
 }
+
 .most-popular {
-  font-size: 18px;
+  font-size: 15px;
   color: black;
   text-decoration: none;
   padding: 20px 30px 7px 0;
@@ -387,8 +400,12 @@ h3 {
   border-top: 1px solid black;
   
 }
+
 h4 {
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.sugg-heading {
+  border-top: solid black 1px;
 }
