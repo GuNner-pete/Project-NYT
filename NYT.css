@@ -61,12 +61,6 @@ p {
   width: 63px;
 }
 
-main {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
 .art-img {
   max-width: 50%;
   position: static;
@@ -98,7 +92,6 @@ span {
 
 .article-one {
   display: flex;
-  /* padding-left: 25%; */
   justify-content: center;
   max-width: 50%;
   flex-direction: column;
@@ -238,8 +231,6 @@ span {
 
 #para-multi {
   width: 75%;
-  /* position: relative; */
-  /* left: 90px; */
 }
 
 #h-multi {
@@ -357,7 +348,7 @@ h3 {
 }
 
 .more-pic {
-max-width: 100%;
+  max-width: 100%;
 }
 
 .more {
