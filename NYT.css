@@ -4,9 +4,10 @@
   padding: 0;
 }
 
-body {
-  background-color: white;
-  max-width: 100%;
+.main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 p {
@@ -97,7 +98,7 @@ span {
 
 .article-one {
   display: flex;
-  padding-left: 25%;
+  /* padding-left: 25%; */
   justify-content: center;
   max-width: 50%;
   flex-direction: column;
@@ -187,7 +188,6 @@ span {
 
 #video1 {
   position: relative;
-  left: 25.5%;
 }
 
 #editors {
@@ -236,24 +236,15 @@ span {
   width: 250px;
 }
 
-#p-multi {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  position: relative;
-  max-width: 80%;
-  font-size: 17px;
-  color: rgb(42, 102, 151);
-}
-
 #para-multi {
-  width: 85%;
-  position: relative;
-  left: 90px;
+  width: 75%;
+  /* position: relative; */
+  /* left: 90px; */
 }
 
 #h-multi {
   position: relative;
-  left: 100px;
+  left: -30%;
 }
 
 #img-multi {
@@ -264,14 +255,13 @@ span {
 
 #multi-p {
   display: grid;
-  width: 85%;
+  width: 80%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.5fr 1fr;
   align-content: center;
   height: 500px;
-  row-gap: 70px;
+  row-gap: 20px;
   position: relative;
-  left: 7.5%;
   top: 150px;
 }
 
@@ -321,9 +311,6 @@ h3 {
 
 #footer-logo {
   border-top: black double 3px;
-  margin-top: 100px;
-  margin-left: 60px;
-  margin-right: 60px;
   position: relative;
 }
 
@@ -343,12 +330,14 @@ h3 {
 #grided {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  align-self: center;
   position: relative;
-  max-width: 94%;
-  top: 200px;
-  left: 40px;
+  width: 80%;
   column-gap: 30px;
-  margin-bottom: 200px;
+}
+
+.describe {
+  font-size: 15px;
 }
 
 #sugg {
@@ -368,7 +357,7 @@ h3 {
 }
 
 .more-pic {
-  width: 320px;
+max-width: 100%;
 }
 
 .more {
@@ -382,6 +371,10 @@ h3 {
   font-size: 25px;
   margin: 5px;
   padding-bottom: 50px;
+}
+
+.sugg-pic {
+  padding: 5px;
 }
 
 .sugg {
@@ -404,9 +397,9 @@ h3 {
 
 .source {
   position: absolute;
-  font-size: 15px;
+  font-size: 10px;
   right: 0;
-  top: 218px;
+  top: 170px;
 }
 
 .date {
@@ -428,6 +421,7 @@ h3 {
   border-top: 1px solid black;
   max-width: 300px;
   margin-left: 20px;
+  margin-right: 0;
 }
 
 .most-popular {
