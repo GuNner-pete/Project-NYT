@@ -113,7 +113,6 @@ span {
   padding: 10px;
   margin: 0 5px 0 5px;
   background-color: rgb(243, 240, 240);
-  /* border: 1px solid black; */
   justify-self: flex-end;
   border-radius: 18px;
 }
@@ -125,7 +124,6 @@ span {
   border-radius: unset;
   position: relative;
   top: 5px;
-  margin: 3;
   padding-left: 0;
   padding-right: 0;
 }
@@ -133,7 +131,7 @@ span {
 .comment-no {
   position: absolute;
   right: 337px;
-  bottom: -243px;
+  bottom: -220px;
   font-size: 12px;
 }
 
@@ -247,15 +245,17 @@ span {
   color: rgb(42, 102, 151);
 }
 
-#para-multi{
+#para-multi {
   width: 85%;
   position: relative;
   left: 90px;
 }
-#h-multi{
+
+#h-multi {
   position: relative;
   left: 100px;
 }
+
 #img-multi {
   max-width: 950px;
   position: absolute;
