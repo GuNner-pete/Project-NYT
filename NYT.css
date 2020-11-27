@@ -289,7 +289,7 @@ span {
 .footer-logo {
   position: relative;
   align-content: center;
-  left: 5%;
+  /* left: 5%; */
   z-index: 100;
   width: 300px;
 }
@@ -298,6 +298,7 @@ span {
   display: flex;
   justify-content: center;
   position: relative;
+  column-gap: 30px;
 }
 
 .footer-container div {
